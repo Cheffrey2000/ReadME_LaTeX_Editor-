@@ -1,5 +1,5 @@
 """
-This script is designed to take a folder of local repositories and a lesson number, and a LaTeX indicator character.
+This script is designed to take in a local directory of a cloned lesson repo and the lesson number
 It will then:
     -iterate through each repo
     -checkout the canvas branch

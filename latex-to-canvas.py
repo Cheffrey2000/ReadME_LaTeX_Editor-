@@ -6,7 +6,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='This script is designed to take a file name and a character, and fix the LaTeX rendering in the file itself')
 
-parser.add_argument('file_name', help='The name of the markdown file to edit')
+parser.add_argument('file_name', help='The name of the markdown file to edit, default is README.md', default='README.md')
 
 args = parser.parse_args()
 

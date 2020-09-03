@@ -2,10 +2,10 @@
 
 LaTeX is a beautiful tool which allows you to create visually appealing mathmatical equations.  This format, however does not always render properly, especially in markdown and HTML.  Github ahs provided a solution for this problem, but it if you already have a repo or document with LaTeX in it, it can take some time to make the changes.
 
-#### without the correct formatting a LaTeX equation woul look like this:
+#### Without the correct formatting a LaTeX equation would look like this:
 > $$ P(A|B) = \dfrac{P(A \cap B)}{P(B)}$$
 
-#### after running the script in the repo folder the result is this:
+#### After running the script in the repo folder the result is this:
 
 > <img src="https://render.githubusercontent.com/render/math?math=P(A|B) =\dfrac{P(A \cap B)}{P(B)}">
 
@@ -15,4 +15,4 @@ The script was developed specifically for use with the Canvas LTI, but can be ad
 
 # Usage
 
-from within the folder of the repo you wish to change, simply run `python ~/PATH/latex-to-canvas.py <lesson number>`
+From within the folder of the repo you wish to change, simply run `python ~/PATH/latex-to-canvas.py <lesson number>`

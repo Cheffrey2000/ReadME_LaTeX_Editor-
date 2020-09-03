@@ -15,4 +15,4 @@ The script was developed specifically for use with the Canvas LTI, but can be ad
 
 # Usage
 
-from within the folder of the repo you wish to change, simply run `python ~/PATH/latex-to-canvas.py <lesson number>
+from within the folder of the repo you wish to change, simply run `python ~/PATH/latex-to-canvas.py <lesson number>'
